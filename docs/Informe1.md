@@ -1,6 +1,5 @@
 # Informe Académico (entrega 1)
-## Integrantes del equipo: 
-## Link a repositorio:
+## Integrantes del equipo: Antonio Caiafa, Mateo Nicodella, Juan Manuel Rial
 
 ## Repositorio Git
 

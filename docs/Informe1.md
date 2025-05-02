@@ -1,20 +1,20 @@
-## Informe Académico (entrega 1)
-# Integrantes del equipo: 
-# Link a repositorio:
+# Informe Académico (entrega 1)
+## Integrantes del equipo: 
+## Link a repositorio:
 
-# Repositorio Git
+## Repositorio Git
 
-# Investigación
+## Investigación
 
-# RN & RNF
+## RN & RNF
 
-# User Stories & Use Cases
+## User Stories & Use Cases
 
-# Modelo de dominio
+## Modelo de dominio
 
-# Verificación & Validación
+## Verificación & Validación
 
-# Descripción del Trabajo Individual
+## Descripción del Trabajo Individual
 
-# Reflexión
+## Reflexión
 

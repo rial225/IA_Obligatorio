@@ -33,7 +33,7 @@ El actor es quien realiza la acción principal de cada requisito. El actor puede
 <p align="center"><strong>#01: Registro de evento.</strong><br>
 Descripción: El sistema debe permitir al usuario la creación de un evento indicando fecha, lugar, temática y datos de contacto.<br>
 Prioridad: alta.<br>
-Actor: Usuario</p>
+Actor: Organizador</p>
 
 <p align="center"><strong>#02: Envío de invitaciones digitales</strong><br>
 El sistema debe permitir enviar invitaciones por medios digitales (WhatsApp, mail o enlace).<br>
@@ -132,25 +132,27 @@ Prioridad: alta.</p>
 
 ## Anexo
 
-¿Cómo fue la experiencia general de organizar el evento?
-¿Qué es lo más complicado al momento de planear la fiesta?
-¿Qué fue lo más difícil o estresante de organizar el cumpleaños?
-¿Cuánto tiempo te llevó planificar todo?
-¿Cómo enviaste las invitaciones?
-¿Tuviste problemas para que la gente confirme asistencia?
-¿Cómo llevaste el control de quién venía y quién no?
-¿Hubo cambios de último momento? ¿Cómo se los comunicaste a los invitados?
-¿Alguien te avisó si tenía alguna restricción alimentaria? ¿Cómo lo registraste?
-¿Cómo organizaste la distribución de las mesas?
-¿Utilizaste alguna aplicación o herramienta digital para ayudarte? Si usaste alguna, ¿qué te gustó y qué no?
-Si existiera una app que te ayudará a enviar invitaciones, llevar el control de invitados, mesas y gastos, ¿la habrías usado?
-Si pudieras repetir el evento, ¿qué harías diferente?
-¿Sentís que pudiste disfrutar el evento o estuviste pendiente de la organización?
-¿Tuviste algún presupuesto definido desde el inicio? ¿De cuanto era?
-¿Hubo gastos inesperados o fuera de presupuesto? ¿Cuáles?
-¿Qué cosas te hubiera gustado tener pero no pudiste por el precio?
-¿En qué cosas gastaste más dinero?
-¿Si tuvieras que organizar otro evento, como manejarias el presupuesto de manera diferente?
-¿Cuáles eran tus prioridades al momento de elegir el salón para la fiesta?
-¿Qué comodidades o servicios te parecían indispensables en un salón para que todo salga bien?
-¿Preferiste un salón que ofreciera paquetes completos o contrataste servicios por separado? 
+- ¿Cómo fue la experiencia general de organizar el evento?
+- ¿Qué es lo más complicado al momento de planear la fiesta?
+- ¿Qué fue lo más difícil o estresante de organizar el cumpleaños?
+- ¿Cuánto tiempo te llevó planificar todo?
+- ¿Cómo enviaste las invitaciones?
+- ¿Tuviste problemas para que la gente confirme asistencia?
+- ¿Cómo llevaste el control de quién venía y quién no?
+- ¿Hubo cambios de último momento? 
+- ¿Cómo se los comunicaste a los invitados?
+- ¿Alguien te avisó si tenía alguna restricción alimentaria? 
+- ¿Cómo lo registraste?
+- ¿Cómo organizaste la distribución de las mesas?
+- ¿Utilizaste alguna aplicación o herramienta digital para ayudarte? Si usaste alguna, ¿qué te gustó y qué no?
+- Si existiera una app que te ayudará a enviar invitaciones, llevar el control de invitados, mesas y gastos, ¿la habrías usado?
+- Si pudieras repetir el evento, ¿qué harías diferente?
+- ¿Sentís que pudiste disfrutar el evento o estuviste pendiente de la organización?
+- ¿Tuviste algún presupuesto definido desde el inicio? ¿De cuanto era?
+- ¿Hubo gastos inesperados o fuera de presupuesto? ¿Cuáles?
+- ¿Qué cosas te hubiera gustado tener pero no pudiste por el precio?
+- ¿En qué cosas gastaste más dinero?
+- ¿Si tuvieras que organizar otro evento, como manejarias el presupuesto de manera diferente?
+- ¿Cuáles eran tus prioridades al momento de elegir el salón para la fiesta?
+- ¿Qué comodidades o servicios te parecían indispensables en un salón para que todo salga bien?
+- ¿Preferiste un salón que ofreciera paquetes completos o contrataste servicios por separado? 

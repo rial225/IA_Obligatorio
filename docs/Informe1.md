@@ -13,7 +13,7 @@ El objetivo de esta entrevista es aprender de la experiencia de la entrevistada,
 
 El plan consistia en hacerle preguntas a la entrevistada respecto a su experienca, para que sirvan como para empezar una converzacion con la entrevistada respecto al tema de la pregunta. En su mayoria los temas eran los invitados, como mandaban las invitaciones, como eran las respuestas, como se administraba todo, habia dificultades con algun invitado, etc. Tambien esta el manejo de la plata, como cual era el presupuesto, se hizo un gasto inecesario, hay algo que le hubiese comprar pero no lo hizo, etc.
 
-Para resumir, lo que nos compartio la entrevistada fue que, si se puede comprar la comida, servicio y local todo en un paquete, esto en su opinion es mas confiable, y mas eficiente. Otra cosa fue que hay que controlar las confirmaciones de los invitados y sus restricciones, ya sea uno vegetariano, celiaco, etc., los gastos, que no se pasen del presupuesto acordado, etc.
+Para resumir, lo que nos compartio la entrevistada fue que, hay que llevar un control sobre todo lo importante, ya sea sobre los invitados, si estos confirmaron su asistencia o no, si uno de ellos tiene una limitacion ya sea este vegetariano, celiaco, etc., ya sea sobre los gastos, si todo cabe dentro del presupuesto, si da lo suficiente talves darse un gusto. Otra cosa a destacar que la entrevistada menciona es que si es posible comprar el lugar, el servicio y la comida de un mismo paquete, ya que es mas confiable y al mismo tiempo mas eficiente.
 
 #### Entrevista 2:
 

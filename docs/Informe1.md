@@ -7,11 +7,19 @@
 
 ### Técnicas de elicitación: Entrevista
 
-Entrevista 1:
+#### Entrevista 1:
+
 El objetivo de esta entrevista es aprender de la experiencia de la entrevistada, sobre cual fue su experiencia al planificar un cumpleaños de 15 para su hija aca en Montevideo Uruguay. Nos interesa saber que cosas priorizar sobre otras, si la comida es lo mas importante o talves el lugar, entre otras muchas otras cosas, aparte nos interesa saber que dificultades se presentaron y como las resolvieron.
 
-El plan consistia en hacerle preguntas a la entrevistada respecto a su experienca, para que sirvan como para empezar una converzacion con la entrevistada respecto al tema de la pregunta. En su mayoria los temas eran los invitados, como mandaban las invitaciones, como eran las respuestas, como se administraba todo, habia dificultades con algun invitado, etc. Tambien esta el manejo de la plata, como cual era el presupuesto, se hizo un gasto inecesario, hay algo que le hubiese comprar pero no lo hizo, etc.s
+El plan consistia en hacerle preguntas a la entrevistada respecto a su experienca, para que sirvan como para empezar una converzacion con la entrevistada respecto al tema de la pregunta. En su mayoria los temas eran los invitados, como mandaban las invitaciones, como eran las respuestas, como se administraba todo, habia dificultades con algun invitado, etc. Tambien esta el manejo de la plata, como cual era el presupuesto, se hizo un gasto inecesario, hay algo que le hubiese comprar pero no lo hizo, etc.
 
+Para resumir, lo que nos compartio la entrevistada fue que, si se puede comprar la comida, servicio y local todo en un paquete, esto en su opinion es mas confiable, y mas eficiente. Otra cosa fue que hay que controlar las confirmaciones de los invitados y sus restricciones, ya sea uno vegetariano, celiaco, etc., los gastos, que no se pasen del presupuesto acordado, etc.
+
+#### Entrevista 2:
+
+
+
+### Técnicas de elicitación: Ingieneria Inversa
 
 
 ## RN & RNF

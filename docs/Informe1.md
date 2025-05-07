@@ -9,17 +9,28 @@
 
 #### Entrevista 1:
 
-El objetivo de esta entrevista es aprender de la experiencia de la entrevistada, sobre cuál fue su experiencia al planificar un cumpleaños de 15 para su hija acá en Montevideo Uruguay. Nos interesa saber qué cosas priorizar sobre otras, si la comida es lo más importante o tal vez el lugar, entre otras muchas otras cosas, aparte nos interesa saber qué dificultades se presentaron y cómo las resolvieron.
+El objetivo de esta entrevista es aprender de la experiencia de la entrevistada, sobre cual fue su experiencia al planificar un cumpleaños de 15 para su hija aca en Montevideo Uruguay. Nos interesa saber que cosas priorizar sobre otras, si la comida es lo mas importante o talves el lugar, entre otras muchas otras cosas, aparte nos interesa saber que dificultades se presentaron y como las resolvieron.
 
-El plan consistía en hacerle preguntas a la entrevistada respecto a su experiencia, para que sirvan como para empezar una conversación con la entrevistada respecto al tema de la pregunta. En su mayoría los temas eran los invitados, como mandaban las invitaciones, como eran las respuestas, como se administraba todo, había dificultades con algún invitado, etc. También está el manejo de la plata, como cuál era el presupuesto, se hizo un gasto innecesario, hay algo que le hubiese podido comprar pero no lo hizo, etc.
+El plan consistia en hacerle preguntas a la entrevistada respecto a su experienca, para que sirvan como para empezar una conversacion con la entrevistada respecto al tema de la pregunta. En su mayoria los temas eran los invitados, como mandaban las invitaciones, como eran las respuestas, como se administraba todo, habia dificultades con algun invitado, etc. Tambien esta el manejo de la plata, como cual era el presupuesto, se hizo un gasto inecesario, hay algo que le hubiese comprar pero no lo hizo, etc.
 
-Para resumir, lo que nos compartió la entrevistada fue que, hay que llevar un control sobre todo lo importante, ya sea sobre los invitados, si estos confirmaron su asistencia o no, si uno de ellos tiene una limitación ya sea este vegetariano, celíaco, etc., ya sea sobre los gastos, si todo cabe dentro del presupuesto, si da lo suficiente tal vez darse un gusto. Otra cosa a destacar que la entrevistada menciona es que si es posible comprar el lugar, el servicio y la comida de un mismo paquete, ya que es más confiable y al mismo tiempo más eficiente.
+Para resumir, lo que nos compartio la entrevistada fue que, hay que llevar un control sobre todo lo importante, ya sea sobre los invitados, si estos confirmaron su asistencia o no, si uno de ellos tiene una limitacion ya sea este vegetariano, celiaco, etc., ya sea sobre los gastos, si todo cabe dentro del presupuesto, si da lo suficiente talves darse un gusto. Otra cosa a destacar que la entrevistada menciona es que si es posible comprar el lugar, el servicio y la comida de un mismo paquete, ya que es mas confiable y al mismo tiempo mas eficiente.
 
 #### Entrevista 2:
 
+Siguiendo con el objetivo anterior, realizamos otra entrevista con el mismo formato, consultando qué resultó más dificil al momento de planificar una fiesta de 15 años. También consultamos cuál fue el punto más importante respecto al presupuesto y si a día de hoy, teniendo ya la experiencia de haber organizado todo, lo realizaría de otra forma.
+Podemos concluír que lo mejor para quien organiza estos eventos es contratar un espacio que incluya lo máximo posible, ya que allí se unifican las cosas y se puede organizar todo con las mismas personas o herramientas, lo mejor es enviar invitaciones de manera electrónica con opciones para confirmar asistencia allí mismo y también mencionar si tienen alguna restricción alimenticia, guardandose esto con los datos de cada persona, de esa forma llega toda la información directo al local y se ahorran los malentendidos.
+Se sabe también que el tema del presupuesto es algo a evaluar por quien va a organizar la fiesta y lo mejor es siempre presentar planes donde se pueda dejar un pequeño margen de dinero para posibles contratiempos o detalles para agregar.
 
 
 ### Técnicas de elicitación: Ingieneria Inversa
+*(a futuro app quincy)*
+
+
+### Conclusion:
+De las entrevistas realizadas pudimos concluir que las necesidades mas recurrentes de los usuarios lisitados son con respecto a las invitaciones y la gestion de las mismas, asi como llevar un registro de los gastos y asi poder gestionar mejor en que asignar el presupuesto. Con el fin de simplificar la organizacion y asi centrar mas atencion en otros aspectos del mismo.
+Otro descubrimiento que se identifico de las entrevistas fueron los user persona que utilizarian la aplicacion son los:
+- organizadores
+- invitados
 
 
 ## RN & RNF
@@ -122,15 +133,24 @@ Prioridad: alta.</p>
 
 ## User Stories & Use Cases
 
+
+
+
+
+
 ## Modelo de dominio
+
+![Modelo Conceptual del problema](Modelo_Conceptual.jpg)
 
 ## Verificación & Validación
 
 ## Descripción del Trabajo Individual
 
 ## Reflexión
-
+---
 ## Anexo
+
+#### Preguntas para entrevista
 
 - ¿Cómo fue la experiencia general de organizar el evento?
 - ¿Qué es lo más complicado al momento de planear la fiesta?

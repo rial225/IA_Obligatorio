@@ -53,92 +53,109 @@ La prioridad alta indica que es esencial para la funcionalidad del sistema. La p
 El actor es quien realiza la acción principal de cada requisito. El actor puede ser el usuario, el organizador, el invitado o el sistema.
 
 <h3 align="center">Requerimientos Funcionales:</h3>
-<p align="center"><strong>#01: Registro de evento.</strong><br>
+<p align="center"><strong>#RF01: Registro de evento.</strong><br>
 Descripción: El sistema debe permitir al usuario la creación de un evento indicando fecha, lugar, temática y datos de contacto.<br>
 Prioridad: alta.<br>
-Actor: Organizador</p>
+Actor: Organizador.</p>
 
-<p align="center"><strong>#02: Envío de invitaciones digitales</strong><br>
+<p align="center"><strong>#RF02: Envío de invitaciones digitales</strong><br>
 El sistema debe permitir enviar invitaciones por medios digitales (WhatsApp, mail o enlace).<br>
 Prioridad: alta.<br>
-Actor: Sistema</p>
+Actor: Sistema.</p>
 
-<p align="center"><strong>#03: Confirmación de asistencia</strong><br>
+<p align="center"><strong>#RF03: Confirmación de asistencia</strong><br>
 El sistema debe administrar la confirmación o rechazo de la invitación por parte del invitado.<br>
 Prioridad: alta.<br>
-Actor: Invitado</p>
+Actor: Invitado.</p>
 
-<p align="center"><strong>#04: Registro de restricciones alimentarias</strong><br>
+<p align="center"><strong>#RF04: Registro de restricciones alimentarias</strong><br>
 Cada invitado podrá informar si tiene alguna restricción (celíaco, vegetariano, alérgico, etc.).<br>
 Prioridad: media.<br>
-Actor: Invitado</p>
+Actor: Invitado.</p>
 
-<p align="center"><strong>#05: Asignación de mesas</strong><br>
+<p align="center"><strong>#RF05: Asignación de mesas</strong><br>
 El organizador podrá asignar invitados a distintas mesas con una interfaz gráfica.<br>
 Prioridad: alta.<br>
-Actor: Organizador</p>
+Actor: Organizador.</p>
 
-<p align="center"><strong>#06: Envío de recordatorios y notificaciones</strong><br>
+<p align="center"><strong>#RF06: Envío de recordatorios y notificaciones</strong><br>
 El sistema enviará recordatorios automáticos antes del evento.<br>
 Prioridad: media.<br>
-Actor: Sistema</p>
+Actor: Sistema.</p>
 
-<p align="center"><strong>#07: Cambios del Evento</strong><br>
+<p align="center"><strong>#RF07: Cambios del Evento</strong><br>
 El sistema le permitirá al organizador realizar cambios al evento.<br>
 Prioridad: alta.<br>
-Actor: Organizador</p>
+Actor: Organizador.</p>
 
-<p align="center"><strong>#08: Gestión de cambios de último momento</strong><br>
+<p align="center"><strong>#RF08: Gestión de cambios de último momento</strong><br>
 El sistema podrá notificar a los invitados sobre cambios (clima, lugar, hora).<br>
 Prioridad: alta.<br>
-Actor: Sistema</p>
+Actor: Sistema.</p>
 
-<p align="center"><strong>#09: Panel de control del evento</strong><br>
+<p align="center"><strong>#RF09: Panel de control del evento</strong><br>
 Vista resumen con cantidad de confirmaciones, pendientes, restricciones, etc.<br>
 Prioridad: alta.<br>
-Actor: Sistema</p>
+Actor: Sistema.</p>
 
-<p align="center"><strong>#10: Personalización de invitaciones</strong><br>
+<p align="center"><strong>#RF10: Personalización de invitaciones</strong><br>
 Posibilidad de agregar fotos, textos, colores y temática personalizada.<br>
 Prioridad: baja.<br>
-Actor: Organizador</p>
+Actor: Organizador.</p>
 
-<p align="center"><strong>#11: Gestión de presupuesto</strong><br>
+<p align="center"><strong>#RF11: Gestión de presupuesto</strong><br>
 El sistema permitirá al usuario cargar y gestionar el presupuesto registrando los gastos.<br>
 Prioridad: media.<br>
-Actor: Organizador</p>
+Actor: Organizador.</p>
+
+<p align="center"><strong>#RF12: Registro de cambios del evento</strong><br>
+El sistema debe registrar el historial de modificaciones del evento (fecha, lugar, catering) con usuario, tipo de cambio y fecha.<br>
+Prioridad: alta.<br>
+Actor: Sistema.</p>
+
+<p align="center"><strong>#RF13: Gestión de pagos asociados</strong><br>
+El sistema debe permitir gestionar los pagos de lugar, catering y servicios dentro del módulo de presupuesto.<br>
+Prioridad: media.<br>
+Actor: Sistema.</p>
+<p align="center"><strong>#RF14: Gestión de restricciones alimentarias</strong><br>
+El sistema debe almacenar y mostrar las restricciones alimentarias por invitado, visibles al catering y al organizador.<br>
+Prioridad: alta.<br>
+Actor: Sistema.</p>
+<p align="center"><strong>#RF15: Actualización en tiempo real</strong><br>
+Los cambios realizados por el organizador deben reflejarse en tiempo real en la vista de los usuarios conectados.<br>
+Prioridad: alta.<br>
+Actor: Sistema.</p>
 
 <h3 align="center">Requerimientos No Funcionales:</h3>
 
-<p align="center"><strong>#01: Usabilidad</strong><br>
-La app debe ser fácil de usar incluso para personas con bajo nivel tecnológico.<br>
+<p align="center"><strong>#RNF01: Usabilidad</strong><br>
+La interfaz debe permitir completar las tareas básicas (crear evento, enviar invitaciones, confirmar asistencia) en no más de 5 pasos, con texto claro, botones visibles y confirmaciones visuales.</p>
+
+<p align="center"><strong>#RNF02: Accesibilidad</strong><br>
+El sistema debe ser accesible para navegadores Chrome (version 90 o superior) y Safari (version 13 o superior).<br>
 Prioridad: alta.</p>
 
-<p align="center"><strong>#02: Accesibilidad</strong><br>
-El sistema debe ser accesible para dispositivos celulares Android/iOS y navegador Chrome y Safari.<br>
-Prioridad: alta.</p>
-
-<p align="center"><strong>#03: Seguridad</strong><br>
+<p align="center"><strong>#RNF03: Seguridad</strong><br>
 El sistema debe otorgar protección y seguridad de datos, cumpliento los requisitos de la Ley N° 18.331 de protección de datos.<br>
 Prioridad: alta.</p>
 
-<p align="center"><strong>#04: Escalabilidad y Rendimiento</strong><br>
+<p align="center"><strong>#RNF04: Escalabilidad y Rendimiento</strong><br>
 El sistema debe poder actualizarse para agregar nuevas funcionalidades y mayor capacidad de usuarios sin afectar los tiempos de ejecución y rendimiento.<br>
 Prioridad: media.</p>
 
-<p align="center"><strong>#05: Tiempos de Carga</strong><br>
+<p align="center"><strong>#RNF05: Tiempos de Carga</strong><br>
 Todas las visitas deben cargarse en menos de 2 segundos con conexión estándar, siendo capaz de manejar hasta 6000 usuarios interactuando simultáneamente sin afectar el rendimiento.<br>
 Prioridad: media.</p>
 
-<p align="center"><strong>#06: Diseño y Asistencia inicial</strong><br>
+<p align="center"><strong>#RNF06: Diseño y Asistencia inicial</strong><br>
 El sistema debe tener un diseño intuitivo, los menús deben ser claros y sencillos. Además, el sistema debe incluir un breve tutorial inicial que guíe al usuario en los primeros pasos del uso de la aplicación.<br>
 Prioridad: alta.</p>
 
-<p align="center"><strong>#07: Disponibilidad</strong><br>
+<p align="center"><strong>#RNF07: Disponibilidad</strong><br>
 El sistema debe estar disponible el 99% del tiempo.<br>
 Prioridad: alta.</p>
 
-<p align="center"><strong>#08: Idioma</strong><br>
+<p align="center"><strong>#RNF08: Idioma</strong><br>
 La aplicación debe estar disponible en español.<br>
 Prioridad: alta.</p>
 

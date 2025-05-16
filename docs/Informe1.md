@@ -14,7 +14,7 @@
 #### Entrevista 1:
 
 
-El objetivo de esta entrevista es aprender de la experiencia de la entrevistada, sobre cuál fue su experiencia al planificar un cumpleaños de 15 para su hija acá en Montevideo Uruguay. Nos interesa saber qué cosas priorizar sobre otras, si la comida es lo más importante o tal vez el lugar, entre otras muchas otras cosas, aparte nos interesa saber qué dificultades se presentaron y cómo las resolvieron.
+El 24 de abril del 2025 fue el dia en el que se entrevisto a Ana Maria Oyarbide, el objetivo de esta entrevista fue aprender sobre la experiencia que tuvo, la cuál fue planificar un cumpleaños de 15 para su hija acá en Montevideo Uruguay. Nos intereso saber qué cosas priorizo sobre otras, si la comida fue lo más importante o tal vez el lugar, entre otras muchas otras cosas, aparte nos intereso saber qué dificultades se presentaron y cómo las resolvieron.
 
 
 El plan consistía en hacerle preguntas a la entrevistada respecto a su experiencia, para que sirvan como para empezar una conversación con la entrevistada respecto al tema de la pregunta. En su mayoría los temas eran los invitados, como mandaban las invitaciones, como eran las respuestas, como se administraba todo, había dificultades con algún invitado, etc. También está el manejo de la plata, como cuál era el presupuesto, se hizo un gasto innecesario, hay algo que le hubiese podido comprar pero no lo hizo, etc.
@@ -26,17 +26,14 @@ Para resumir, lo que nos compartió la entrevistada fue que, hay que llevar un c
 #### Entrevista 2:
 
 
-Siguiendo con el objetivo anterior, realizamos otra entrevista con el mismo formato, consultando qué resultó más difícil al momento de planificar una fiesta de 15 años. También consultamos cuál fue el punto más importante respecto al presupuesto y si a día de hoy, teniendo ya la experiencia de haber organizado todo, lo realizaría de otra forma.
+Siguiendo con el objetivo anterior entrevista, realizamos otra entrevista con el mismo formato el 30 de abril de 2025, a una madre de una hija la cual tuvo la suerte que su madre le planificara su cumpleaños. Lo que se le pregunto fue, que fue más difícil al momento de planificar una fiesta de 15 años. También consultamos cuál fue el punto más importante respecto al presupuesto y si a día de hoy, teniendo ya la experiencia de haber organizado todo, lo realizaría de otra forma.
+
 Podemos concluir que lo mejor para quien organiza estos eventos es contratar un espacio que incluya lo máximo posible, ya que allí se unifican las cosas y se puede organizar todo con las mismas personas o herramientas, lo mejor es enviar invitaciones de manera electrónica con opciones para confirmar asistencia allí mismo y también mencionar si tienen alguna restricción alimenticia, guardando esto con los datos de cada persona, de esa forma llega toda la información directo al local y se ahorran los malentendidos.
 Se sabe también que el tema del presupuesto es algo a evaluar por quien va a organizar la fiesta y lo mejor es siempre presentar planes donde se pueda dejar un pequeño margen de dinero para posibles contratiempos o detalles para agregar.
 
 
-
-
 ### Técnicas de elicitación: Ingeniería Inversa
 *(a futuro app quincy)*
-
-
 
 
 ### Conclusión:
@@ -44,6 +41,12 @@ De las entrevistas realizadas pudimos concluir que las necesidades más recurren
 Otro descubrimiento que se identificó de las entrevistas fueron los user persona que utilizan la aplicación son los:
 - organizadores
 - invitados
+
+![User #1](UserPersona1.jpg)
+
+![User #2](UserPersona2.jpg)
+
+![User #3](UserPersona3.jpg)
 
 ## RN & RNF
 Los requisitos funcionales son aquellas funciones que la aplicación debe cumplir, es decir, todo lo que el sistema tiene que hacer para resolver el problema planteado. Por ejemplo, permitir enviar invitaciones, confirmar asistencia o registrar restricciones alimentarias. Por otro lado, los requisitos no funcionales definen cómo debe comportarse la aplicación, como su facilidad de uso, la seguridad de los datos o que funcione bien desde el celular. Estos no indican nuevas funciones, sino que aseguran que el sistema funcione de manera eficiente y confiable.
@@ -162,10 +165,25 @@ Prioridad: alta.</p>
 
 ## User Stories & Use Cases
 
+### User Stories
+| ID | Título |
+|--|--|
+| Como | rol de usuario |
+| Quiero | funcionalidad/capacidad |
+| Para | beneficio |
+| Criterios de aceptación | lista |
 
 
+### Use case
 
-
+| # | Agendar actividad |
+|---|--------------------|
+| **Descripción** | - |
+| **Actores** | - |
+| **Precondiciones** | - |
+| **Post condiciokknes** | - |
+| **Curso normal** |**Acción (actor)** <br>**Reacción (sistema)**|
+| **Curso alternativo** | **Acción (actor)**<br>**Reacción (sistema)**|
 
 ## Modelo de dominio
 

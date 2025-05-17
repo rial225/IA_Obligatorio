@@ -86,45 +86,40 @@ El sistema enviará recordatorios automáticos antes del evento.<br>
 Prioridad: media.<br>
 Actor: Sistema.</p>
 
-<p align="center"><strong>#RF07: Cambios del Evento</strong><br>
-El sistema le permitirá al organizador realizar cambios al evento.<br>
-Prioridad: alta.<br>
-Actor: Organizador.</p>
-
-<p align="center"><strong>#RF08: Gestión de cambios de último momento</strong><br>
+<p align="center"><strong>#RF07: Gestión de cambios de último momento</strong><br>
 El sistema podrá notificar a los invitados sobre cambios (clima, lugar, hora).<br>
 Prioridad: alta.<br>
 Actor: Sistema.</p>
 
-<p align="center"><strong>#RF09: Panel de control del evento</strong><br>
+<p align="center"><strong>#RF08: Panel de control del evento</strong><br>
 Vista resumen con cantidad de confirmaciones, pendientes, restricciones, etc.<br>
 Prioridad: alta.<br>
 Actor: Sistema.</p>
 
-<p align="center"><strong>#RF10: Personalización de invitaciones</strong><br>
+<p align="center"><strong>#RF09: Personalización de invitaciones</strong><br>
 Posibilidad de agregar fotos, textos, colores y temática personalizada.<br>
 Prioridad: baja.<br>
 Actor: Organizador.</p>
 
-<p align="center"><strong>#RF11: Gestión de presupuesto</strong><br>
+<p align="center"><strong>#RF10: Gestión de presupuesto</strong><br>
 El sistema permitirá al usuario cargar y gestionar el presupuesto registrando los gastos.<br>
 Prioridad: media.<br>
 Actor: Organizador.</p>
 
-<p align="center"><strong>#RF12: Registro de cambios del evento</strong><br>
+<p align="center"><strong>#RF11: Registro de cambios del evento</strong><br>
 El sistema debe registrar el historial de modificaciones del evento (fecha, lugar, catering) con usuario, tipo de cambio y fecha.<br>
 Prioridad: alta.<br>
 Actor: Sistema.</p>
 
-<p align="center"><strong>#RF13: Gestión de pagos asociados</strong><br>
+<p align="center"><strong>#RF12: Gestión de pagos asociados</strong><br>
 El sistema debe permitir gestionar los pagos de lugar, catering y servicios dentro del módulo de presupuesto.<br>
 Prioridad: media.<br>
 Actor: Sistema.</p>
-<p align="center"><strong>#RF14: Gestión de restricciones alimentarias</strong><br>
+<p align="center"><strong>#RF13: Gestión de restricciones alimentarias</strong><br>
 El sistema debe almacenar y mostrar las restricciones alimentarias por invitado, visibles al catering y al organizador.<br>
 Prioridad: alta.<br>
 Actor: Sistema.</p>
-<p align="center"><strong>#RF15: Actualización en tiempo real</strong><br>
+<p align="center"><strong>#RF14: Actualización en tiempo real</strong><br>
 Los cambios realizados por el organizador deben reflejarse en tiempo real en la vista de los usuarios conectados.<br>
 Prioridad: alta.<br>
 Actor: Sistema.</p>
@@ -165,25 +160,115 @@ Prioridad: alta.</p>
 
 ## User Stories & Use Cases
 
-### User Stories
-| ID | Título |
-|--|--|
-| Como | rol de usuario |
-| Quiero | funcionalidad/capacidad |
-| Para | beneficio |
-| Criterios de aceptación | lista |
-
-
-### Use case
-
-| # | Agendar actividad |
+| #RF01 | Registro de evento. |
 |---|--------------------|
-| **Descripción** | - |
-| **Actores** | - |
-| **Precondiciones** | - |
-| **Post condiciokknes** | - |
-| **Curso normal** |**Acción (actor)** <br>**Reacción (sistema)**|
-| **Curso alternativo** | **Acción (actor)**<br>**Reacción (sistema)**|
+| Descripción | El sistema debe permitir al usuario la creación de un evento indicando fecha, lugar, temática y datos de contacto. |
+| Actores | Organizador |
+| Precondiciones | - |
+| Post condiciones | El evento queda registrado en el sistema |
+| Curso normal | Acción (actor): Ingresa a "Crear evento" <br> Reacción (sistema): Muestra formulario <br> Acción (actor): Completa fecha, lugar, temática, datos <br> Reacción (sistema): Guarda evento y redirige al panel |
+| Curso alternativo | Acción (actor): Deja campos vacíos <br> Reacción (sistema): Muestra mensaje de error y no guarda |
+
+| #RF02 | Envío de invitaciones digitales |
+|--|--|
+| Como | Organizador del evento |
+| Quiero | enviar invitaciones digitales por WhatsApp, mail o enlace |
+| Para | que los invitados puedan acceder fácilmente a la información del evento |
+| Criterios de aceptación | - El sistema debe generar un enlace único por invitado <br> - Debe permitir compartir por múltiples plataformas <br> - Las invitaciones deben estar asociadas al evento correcto |
+
+| #RF03 | Confirmación de asistencia |
+|--|--|
+| Como | Invitado |
+| Quiero | confirmar o rechazar la invitación al evento |
+| Para | que el organizador sepa si voy a asistir |
+| Criterios de aceptación | - Debe poder acceder al estado de su respuesta <br> - El sistema debe registrar y notificar al organizador |
+
+| #RF04 | Registro de restricciones alimentarias |
+|--|--|
+| Como | Invitado |
+| Quiero | indicar si tengo alguna restricción alimentaria |
+| Para | que el organizador y el catering lo tengan en cuenta |
+| Criterios de aceptación | - El sistema debe ofrecer una lista de restricciones comunes <br> - Debe guardar la restricción asociada al invitado |
+
+| #RF05 | Asignación de mesas |
+|--|--|
+| Como | Organizador |
+| Quiero | asignar invitados a distintas mesas con una interfaz visual |
+| Para | organizar mejor la disposición del evento |
+| Criterios de aceptación | - Debe permitir arrastrar y soltar invitados <br> - Debe guardar la configuración por evento |
+
+| #RF06 | Envío de recordatorios y notificaciones |
+|--|--|
+| Como | Sistema |
+| Quiero | enviar recordatorios automáticos a los invitados |
+| Para | asegurarme de que no olviden el evento |
+| Criterios de aceptación | - Debe enviarse con antelación configurable <br> - El mensaje debe incluir datos del evento |
+
+| #RF07 | Gestión de cambios de último momento |
+|--|--|
+| Como | Sistema |
+| Quiero | notificar a los invitados sobre cambios importantes |
+| Para | que estén al tanto de imprevistos como cambios de hora o lugar |
+| Criterios de aceptación | - El mensaje debe enviarse apenas se registra un cambio <br> - Debe incluir qué cambió y cuándo |
+
+| #RF08 | Panel de control del evento |
+|---|--------------------|
+| Descripción | Vista resumen con cantidad de confirmaciones, pendientes, restricciones, etc. |
+| Actores | Sistema |
+| Precondiciones | Evento ya creado y con datos cargados |
+| Post condiciones | Se visualiza información consolidada del evento |
+| Curso normal | Acción (actor): Ingresa al panel desde el menú <br> Reacción (sistema): Muestra confirmaciones, restricciones, etc. |
+| Curso alternativo | Acción (actor): Evento no tiene datos aún <br> Reacción (sistema): Muestra mensaje "No hay datos aún disponibles" |
+
+| #RF09 | Personalización de invitaciones |
+|--|--|
+| Como | Organizador |
+| Quiero | personalizar el diseño de las invitaciones |
+| Para | que reflejen la temática del evento |
+| Criterios de aceptación | - Debe permitir elegir colores, textos e imágenes <br> - Debe aplicar a todas las invitaciones del evento |
+
+| #RF10 | Gestión de presupuesto |
+|--|--|
+| Como | Organizador |
+| Quiero | registrar y gestionar los gastos del evento |
+| Para | controlar el presupuesto disponible |
+| Criterios de aceptación | - Debe permitir registrar categoría, monto y proveedor <br> - Debe mostrar un resumen de gastos vs. presupuesto |
+
+| #RF11 | Registro de cambios del evento |
+|---|--------------------|
+| Descripción | El sistema debe registrar el historial de modificaciones del evento (fecha, lugar, catering) con usuario, tipo de cambio y fecha. |
+| Actores | Sistema |
+| Precondiciones | Evento existente |
+| Post condiciones | Se almacena un historial del cambio realizado |
+| Curso normal | Acción (actor): Modifica fecha del evento <br> Reacción (sistema): Guarda usuario, tipo de cambio y fecha |
+| Curso alternativo | Acción (actor): Cancela modificación <br> Reacción (sistema): No se registra ningún cambio |
+
+| #RF12 | Gestión de pagos asociados |
+|---|--------------------|
+| Descripción | El sistema debe permitir gestionar los pagos de lugar, catering y servicios dentro del módulo de presupuesto. |
+| Actores | Sistema |
+| Precondiciones | Presupuesto creado previamente |
+| Post condiciones | Se actualiza el estado de pagos |
+| Curso normal | Acción (actor): Agrega nuevo pago (catering) <br> Reacción (sistema): Actualiza total de presupuesto usado |
+| Curso alternativo | Acción (actor): Omite campos obligatorios <br> Reacción (sistema): No permite guardar y muestra error |
+
+| #RF13 | Gestión de restricciones alimentarias |
+|---|--------------------|
+| Descripción | El sistema debe almacenar y mostrar las restricciones alimentarias por invitado, visibles al catering y al organizador. |
+| Actores | Sistema |
+| Precondiciones | Invitados ya registraron restricciones |
+| Post condiciones | Se visualizan correctamente al planificar menú |
+| Curso normal | Acción (actor): Accede a la lista de invitados <br> Reacción (sistema): Muestra restricciones alimentarias |
+| Curso alternativo | Acción (actor): Invitado no registró restricción <br> Reacción (sistema): Muestra mensaje "Sin restricciones" |
+
+| #RF14 | Actualización en tiempo real |
+|---|--------------------|
+| Descripción | Los cambios realizados por el organizador deben reflejarse en tiempo real en la vista de los usuarios conectados. |
+| Actores | Sistema |
+| Precondiciones | Usuarios deben estar conectados al sistema |
+| Post condiciones | Cambios reflejados sin recargar página |
+| Curso normal | Acción (actor): Cambia lugar del evento <br> Reacción (sistema): Todos los usuarios ven el nuevo lugar al instante |
+| Curso alternativo | Acción (actor): Usuario sin conexión <br> Reacción (sistema): No ve cambios hasta volver a conectarse |
 
 ## Modelo de dominio
 

@@ -13,7 +13,6 @@
 
 #### Entrevista 1:
 
-
 El 24 de abril del 2025 fue el dia en el que se entrevisto a Ana Maria Oyarbide, el objetivo de esta entrevista fue aprender sobre la experiencia que tuvo, la cuál fue planificar un cumpleaños de 15 para su hija acá en Montevideo Uruguay. Nos intereso saber qué cosas priorizo sobre otras, si la comida fue lo más importante o tal vez el lugar, entre otras muchas otras cosas, aparte nos intereso saber qué dificultades se presentaron y cómo las resolvieron.
 
 
@@ -25,7 +24,6 @@ Para resumir, lo que nos compartió la entrevistada fue que, hay que llevar un c
 
 #### Entrevista 2:
 
-
 Siguiendo con el objetivo anterior entrevista, realizamos otra entrevista con el mismo formato el 30 de abril de 2025, a una madre de una hija la cual tuvo la suerte que su madre le planificara su cumpleaños. Lo que se le pregunto fue, que fue más difícil al momento de planificar una fiesta de 15 años. También consultamos cuál fue el punto más importante respecto al presupuesto y si a día de hoy, teniendo ya la experiencia de haber organizado todo, lo realizaría de otra forma.
 
 Podemos concluir que lo mejor para quien organiza estos eventos es contratar un espacio que incluya lo máximo posible, ya que allí se unifican las cosas y se puede organizar todo con las mismas personas o herramientas, lo mejor es enviar invitaciones de manera electrónica con opciones para confirmar asistencia allí mismo y también mencionar si tienen alguna restricción alimenticia, guardando esto con los datos de cada persona, de esa forma llega toda la información directo al local y se ahorran los malentendidos.
@@ -33,7 +31,49 @@ Se sabe también que el tema del presupuesto es algo a evaluar por quien va a or
 
 
 ### Técnicas de elicitación: Ingeniería Inversa
-*(a futuro app quincy)*
+
+La aplicación quincy consiste en 5 paginas, Inicio, Tareas, Pagos, Compras, Proveedores. En la página proveedores, primero te preguntan tu localización, al completar eso, te aparecerá Organizacion, Decoracion, Salones, Catering y Música. Al presionar uno de ellos, opciones del elegido cerca de su zona, cada uno tendrá una imagen, un título, una descripción y un botón corazón. Al presionar uno le aparecerá la opción de contactar a ese proveedor.
+
+
+![Proveedores](Proveedores.jpg)
+
+
+Después tenemos tareas, al seleccionar esta página le aparecerá una lista con las tareas a realizar estas se pueden ordenar por fecha o por categoría. Cada tarea tiene un nombre, una fecha, una categoría y una nota, al presionar una se puede marcar como realizada, o no realizada. Arriba a las esquinas se pueden agregar tareas o eliminarlas, sin mencionar que arriba de la lista hay una barra de progreso que muestra el porcentaje que llevan, cuantas de las tareas llevan realizadas, una buena herramienta para supervisar todo.
+
+
+![Tareas](Tareas.jpg)
+
+
+Más adelante tenemos pagos, en esta página se lleva en cuenta todos los pagos que se hacen. Arriba a las esquinas se pueden ver las opciones de borrar y crear pagos, otra cosa es que arriba de los pagos te llevan la cuenta de cuanto ya está pago y cuanto queda por pagar. Los pagos tienen un nombre, una fecha, el precio a pagar, cuánto va pagado, a qué categoría pertenece y una nota.
+
+
+![Pagos](Pagos.jpg)
+
+
+Como cuarta página tenemos compras, compras se divide en dos páginas, lista de compras y lista de regalos. En ambas páginas te mostrarán las compras o regalos decididos, estos se muestran con una imagen con un nombre abajo, aparte que al presionarlo te darán la opción de ir a la página web de donde salieron. Algo a mencionar es que en la parte de abajo de ambas páginas hay opciones que te dan la página que puedes elegir si es a tu gusto. Finalmente, en la esquina arriba a la derecha tenemos la opción de agregar uno manualmente.
+
+
+![Compras](Compras.jpg)
+
+
+Finalmente, tenemos el inicio, lo primero que se ve es una cuenta atrás que va hasta la fecha del cumple junto una foto de la cumpleañera. Después tenemos los siguientes subtítulos, “siguiente tarea”, “invitados”, “el día de evento”, “inspiración & guías” y “administración”. 
+En “siguiente tarea”, te muestran la próxima tarea a completar, la tarea cuya fecha está más próxima.
+En “invitados” tenemos las opciones de armar la lista de invitados, para agregar un invitado puede ser ya de tus contactos o puedes agregarlos manualmente, se guarda el nombre, su estado(invitado, no asistirá o a confirmar asistencia), la cantidad de acompañantes y la cantidad de niños. Después tenemos la planificación de asientos, que te da la opción de planificar cómo serán las mesas, cuántas personas ocupan una mesa y quienes la ocupan. Finalmente tenemos la invitacion, esta te da una plantilla a completar, la fecha límite de confirmación de asistencia, decidir cuántos acompañante y niños puede traer un invitado y finalmente se manda vía mail.
+En “El día del evento” puedes ver como está predicho el timing y el clima, además de poder ver la playlist que se correrá en el cumpleaños.
+En “inspiración & guías”, te dan unas guías y consejos a tener en cuenta y la capacidad de guardar notas para vos mismo.
+Al final de todo tenemos “administración”, acá tenemos la capacidad de ver el perfil de la quinceañera, de exportar datos, ver los ajustes, cambiar el diseño de la aplicación, invitar a otros que te ayuden a organizar dándoles unos roles asignados, cambiar el idioma de la aplicación, darle las gracias a la aplicación y finalmente cerrar sesión.
+
+
+![Inicio](Inicio.jpg)
+
+
+### Users Persona
+
+![User #1](UserPersona1.jpg)
+
+![User #2](UserPersona2.jpg)
+
+![User #3](UserPersona3.jpg)
 
 
 ### Conclusión:
@@ -42,11 +82,6 @@ Otro descubrimiento que se identificó de las entrevistas fueron los user person
 - organizadores
 - invitados
 
-![User #1](UserPersona1.jpg)
-
-![User #2](UserPersona2.jpg)
-
-![User #3](UserPersona3.jpg)
 
 ## RN & RNF
 Los requisitos funcionales son aquellas funciones que la aplicación debe cumplir, es decir, todo lo que el sistema tiene que hacer para resolver el problema planteado. Por ejemplo, permitir enviar invitaciones, confirmar asistencia o registrar restricciones alimentarias. Por otro lado, los requisitos no funcionales definen cómo debe comportarse la aplicación, como su facilidad de uso, la seguridad de los datos o que funcione bien desde el celular. Estos no indican nuevas funciones, sino que aseguran que el sistema funcione de manera eficiente y confiable.
